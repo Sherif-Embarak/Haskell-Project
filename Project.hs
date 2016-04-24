@@ -17,3 +17,27 @@ traverseBF tree = tbf [tree]
         leftAndRightNodes (Node _ a b)         = [a,b]
 
 
+
+
+
+
+-- Tree structure 
+x = Node 'A'
+                (Node 'B'
+                    (Node 'C' Empty Empty)
+                    (Node 'D' Empty Empty)
+                )
+                (Node 'E'
+                    (Node 'F' Empty Empty)
+                    (Node 'G' Empty (Node 'H'
+                        (Node 'I' Empty Empty)
+                        Empty
+                    ))
+                )
+
+
+traverseDF x
+
+traverseBF x
+
+
