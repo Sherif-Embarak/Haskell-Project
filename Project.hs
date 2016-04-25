@@ -22,22 +22,22 @@ traverseBF tree = tbf [tree]
 
 
 -- Tree structure 
-x = Node 'A'
-                (Node 'B'
-                    (Node 'C' Empty Empty)
-                    (Node 'D' Empty Empty)
-                )
-                (Node 'E'
-                    (Node 'F' Empty Empty)
-                    (Node 'G' Empty (Node 'H'
-                        (Node 'I' Empty Empty)
-                        Empty
-                    ))
-                )
+-- x = Node 'A'
+--                 (Node 'B'
+--                     (Node 'C' Empty Empty)
+--                     (Node 'D' Empty Empty)
+--                 )
+--                 (Node 'E'
+--                     (Node 'F' Empty Empty)
+--                     (Node 'G' Empty (Node 'H'
+--                         (Node 'I' Empty Empty)
+--                         Empty
+--                     ))
+--                 )
 
 
-traverseDF x
+-- traverseDF x
 
-traverseBF x
+-- traverseBF x
 
 
